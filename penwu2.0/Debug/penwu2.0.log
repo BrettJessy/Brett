@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/5/26 8:47:25。
+     1>项目“E:\挑战杯程序\penwu3.0\penwu2.0\penwu2.0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\penwu2.0.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt WorkThread.cpp
+         WorkThread.cpp
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\workthread.h(5): warning C4005: “_AFXDLL”: 宏重定义
+         e:\挑战杯程序\penwu3.0\penwu2.0\workthread.h(5): note: 命令行参数: 参见前面的“_AFXDLL”定义
+       Link:
+         D:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\挑战杯程序\penwu3.0\Debug\penwu2.0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\毕设\penwu3.0\penwu2.0" urg.lib ws2_32.lib setupapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2015\VC\Include\Manifest\dpiaware.manifest /Debug /PDB:"E:\挑战杯程序\penwu3.0\Debug\penwu2.0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\挑战杯程序\penwu3.0\Debug\penwu2.0.lib" /MACHINE:X86 Debug\penwu2.0.res
+         Debug\calculate_xy.obj
+         Debug\open_urg_sensor.obj
+         Debug\penwu2.0.obj
+         Debug\penwu2.0Dlg.obj
+         Debug\stdafx.obj
+         Debug\urg_connection.obj
+         Debug\urg_ring_buffer.obj
+         Debug\urg_sensor.obj
+         Debug\urg_serial.obj
+         Debug\urg_serial_utils.obj
+         Debug\urg_tcpclient.obj
+         Debug\urg_utils.obj
+         Debug\WorkThread.obj
+         penwu2.0.vcxproj -> E:\挑战杯程序\penwu3.0\Debug\penwu2.0.exe
+     1>已完成生成项目“E:\挑战杯程序\penwu3.0\penwu2.0\penwu2.0.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:20.51

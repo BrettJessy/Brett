@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/3/27 17:24:25。
+     1>项目“E:\挑战杯程序\penwu3.0\penwu2.0\penwu2.0.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\penwu2.0.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\penwu2.0.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt calculate_xy.cpp initialise.cpp open_urg_sensor.cpp penwu2.0.cpp penwu2.0Dlg.cpp urg_connection.cpp urg_ring_buffer.cpp urg_sensor.cpp urg_serial.cpp urg_serial_utils.cpp urg_tcpclient.cpp urg_utils.cpp WorkThread.cpp
+         calculate_xy.cpp
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(21): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(22): warning C4305: “初始化”: 从“double”到“float”截断
+     1>calculate_xy.cpp(25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>calculate_xy.cpp(45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         initialise.cpp
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(21): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(22): warning C4305: “初始化”: 从“double”到“float”截断
+     1>initialise.cpp(32): warning C4101: “n”: 未引用的局部变量
+         open_urg_sensor.cpp
+         penwu2.0.cpp
+         penwu2.0Dlg.cpp
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(21): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(22): warning C4305: “初始化”: 从“double”到“float”截断
+         urg_connection.cpp
+         urg_ring_buffer.cpp
+         urg_sensor.cpp
+         urg_serial.cpp
+         urg_serial_utils.cpp
+         urg_tcpclient.cpp
+     1>urg_tcpclient.cpp(120): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+         urg_utils.cpp
+         WorkThread.cpp
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(21): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\挑战杯程序\penwu3.0\penwu2.0\global.h(22): warning C4305: “初始化”: 从“double”到“float”截断
+     1>WorkThread.cpp(41): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>已完成生成项目“E:\挑战杯程序\penwu3.0\penwu2.0\penwu2.0.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.21
